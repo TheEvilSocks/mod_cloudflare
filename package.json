@@ -1,0 +1,29 @@
+{
+  "name": "mod_cloudflare",
+  "version": "1.0.0",
+  "description": "Inspired by mod_cloudflare.c, this ExpressJS middleware will replace the IP variable with the correct remote IP sent from CloudFlare.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node ./scripts/install.js"
+  },
+  "keywords": [
+    "express",
+    "cloudflare"
+  ],
+  "author": {
+    "name": "TheEvilSocks"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ip-cidr": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheEvilSocks/mod_cloudflare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheEvilSocks/mod_cloudflare/issues"
+  },
+  "homepage": "https://github.com/TheEvilSocks/mod_cloudflare#readme"
+}
