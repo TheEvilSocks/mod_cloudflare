@@ -1,6 +1,6 @@
 {
   "name": "mod_cloudflare",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Inspired by mod_cloudflare.c, this ExpressJS middleware will replace the IP variable with the correct remote IP sent from CloudFlare.",
   "main": "index.js",
   "scripts": {
