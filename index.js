@@ -20,8 +20,6 @@ module.exports = function(options = {}){
 		var isCloudFlare = false;
 		
 		let _ip = req.ip;
-		if(/^::ffff:(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(_ip))
-			_ip = _ip.substring(7);
 
 		for(let range of CloudFlareIPs){
 			if(range.contains(_ip)){
