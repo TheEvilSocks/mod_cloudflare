@@ -9,7 +9,7 @@ To install, simple run:
 
 ### Usage ###
 
-```js
+```javascript
 var express = require('express')
 var app = express()
 
