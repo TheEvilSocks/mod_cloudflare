@@ -10,15 +10,15 @@ To install, simple run:
 ### Usage ###
 
 ```javascript
-var express = require('express')
-var app = express()
+const express = require('express')
+const app = express()
 
-var mod_cloudflare = require('mod_cloudflare');
+const mod_cloudflare = require('mod_cloudflare');
 
 app.use(mod_cloudflare());
 
 app.get('/', function (req, res) {
-  res.send("Your IP is: " + req.ip);
+  res.send(`Your IP is: {$req.ip}`);
 })
 
 app.listen(3000);
